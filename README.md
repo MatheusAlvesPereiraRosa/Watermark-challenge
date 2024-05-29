@@ -48,16 +48,16 @@ body:
 
 ```
   {
-    "Base64Image": "Base64daImage",
-    "WatermarkText": "Marca d'água",
-    "X": 0,
-    "Y": 0,
-    "FontSize": 24,
-    "Opacity": 200,
-    "R": 255,
-    "G": 0,
-    "B": 0
-}
+      "Base64Image": "Base64daImage",
+      "WatermarkText": "Marca d'água",
+      "X": 0,
+      "Y": 0,
+      "FontSize": 24,
+      "Opacity": 200,
+      "R": 255,
+      "G": 0,
+      "B": 0
+  }
 ```
 
 Ambas as rotas podem ser importadas via o arquivo "Funimage-challenge.postman_collection.json" na pasta "Postman" nos arquivos do projeto.
