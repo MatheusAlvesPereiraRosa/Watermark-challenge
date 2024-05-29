@@ -57,13 +57,13 @@ namespace ImageWatermarkAPI.Controllers
     public class ImageRequest
     {
         public string? Base64Image { get; set; }
-    public string? WatermarkText { get; set; }
-    public int X { get; set; }
-    public int Y { get; set; }
-    public int FontSize { get; set; }
-    public int Opacity { get; set; }
-    public int R { get; set; }
-    public int G { get; set; }
-    public int B { get; set; }
-}
+        public string? WatermarkText { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
+        public int FontSize { get; set; }
+        public int Opacity { get; set; }
+        public int R { get; set; }
+        public int G { get; set; }
+        public int B { get; set; }
+    }
 }
