@@ -17,13 +17,13 @@ Caso o SDK esteja baixado, será retornada a versão baixada na máquina (no meu
 Clone o projeto utilizando o comando 
 
 ```
-  https://github.com/MatheusAlvesPereiraRosa/Watermark-challenge.git
+	https://github.com/MatheusAlvesPereiraRosa/Watermark-challenge.git
 ```
 
 Depois entre no projeto com seu terminal de escolha e o rode com o comando
 
 ```
-  dotnet run
+	dotnet run
 ```
 
 Após isso seu projeto ira compilar, gerar um arquivo bin e o servidor conseguirá responder a suas requisições
@@ -35,28 +35,28 @@ O teste é composto por basicamente duas rotas, sendo elas:
 ### GET
 
 ```
-  http://localhost:5271/api/home
+	http://localhost:5271/api/home
 ```
 
 ### POST
 
 ```
-  http://localhost:5271/api/images/watermark
+	http://localhost:5271/api/images/watermark
 ```
 
 body:
 
 ```
   {
-    "Base64Image": "Base64daImage",
-		"WatermarkText": "Marca d'água",
-    "X": 0,
-    "Y": 0,
-    "FontSize": 24,
-    "Opacity": 200,
-    "R": 255,
-    "G": 0,
-    "B": 0
+    	"Base64Image": "Base64daImage",
+	"WatermarkText": "Marca d'água",
+    	"X": 0,
+    	"Y": 0,
+    	"FontSize": 24,
+    	"Opacity": 200,
+    	"R": 255,
+    	"G": 0,
+    	"B": 0
 }
 ```
 
